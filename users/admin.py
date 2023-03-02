@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from vacancies.models import Vacancy, Skill
+from users.models import Location, User
 
-admin.site.register(Vacancy)
-admin.site.register(Skill)
+admin.site.register(Location)
+admin.site.register(User)
